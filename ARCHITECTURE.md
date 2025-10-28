@@ -1,7 +1,7 @@
-# CodeSage — System Architecture
+# CPInsights — System Architecture
 
 ## 1. Overview
-**CodeSage** is an AI-driven code analysis platform built specifically for competitive programming. It analyzes submissions from Codeforces and LeetCode, performs algorithmic pattern detection using AST parsing and vector embeddings, and provides detailed explanations, complexity analysis, and optimization suggestions using large language models.
+**CPInsights** is an AI-driven code analysis platform built specifically for competitive programming. It analyzes submissions from Codeforces and LeetCode, performs algorithmic pattern detection using AST parsing and vector embeddings, and provides detailed explanations, complexity analysis, and optimization suggestions using large language models.
 
 The system combines static code analysis, semantic search, and LLM reasoning to deliver insights that help competitive programmers understand their solutions, identify weaknesses, and improve their problem-solving skills.
 
@@ -661,7 +661,7 @@ async def contest_analysis(contest_id: str) -> ContestStats:
 - **AlgoExpert/Neetcode:** Video explanations, no code analysis
 - **GitHub Copilot:** Code completion, not analysis or learning
 
-**CodeSage Differentiators:**
+**CPInsights Differentiators:**
 - Automated pattern detection (no manual tagging)
 - Personalized based on user's solving history
 - Combines static analysis + LLM reasoning
@@ -710,7 +710,7 @@ async def contest_analysis(contest_id: str) -> ContestStats:
 ## 18. Repository Layout
 
 ```
-codesage/
+CPInsights/
 ├── backend/
 │   ├── api/
 │   │   ├── routes/              # FastAPI route handlers
@@ -794,4 +794,4 @@ codesage/
 
 ## Conclusion
 
-CodeSage combines traditional static analysis with modern AI to create a unique learning tool for competitive programmers. By leveraging AST parsing for structural understanding and LLMs for explanations, it bridges the gap between solving problems and truly understanding algorithmic patterns. The architecture is designed to scale, with async processing, caching, and modular components that can evolve independently.
+CPInsights combines traditional static analysis with modern AI to create a unique learning tool for competitive programmers. By leveraging AST parsing for structural understanding and LLMs for explanations, it bridges the gap between solving problems and truly understanding algorithmic patterns. The architecture is designed to scale, with async processing, caching, and modular components that can evolve independently.

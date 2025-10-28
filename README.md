@@ -1,7 +1,7 @@
-# CodeSage - AI-Powered Competitive Programming Code Review Assistant
+# CPInsights - AI-Powered Competitive Programming Code Review Assistant
 
 ## Overview
-CodeSage is an intelligent code analysis platform designed specifically for competitive programmers. It analyzes submissions from Codeforces and LeetCode, detects algorithmic patterns, provides optimization suggestions, and explains solution approaches with detailed complexity analysis. Built by competitive programmers, for competitive programmers.
+CPInsights is an intelligent code analysis platform designed specifically for competitive programmers. It analyzes submissions from Codeforces and LeetCode, detects algorithmic patterns, provides optimization suggestions, and explains solution approaches with detailed complexity analysis. Built by competitive programmers, for competitive programmers.
 
 ## Key Features
 
@@ -79,8 +79,8 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for detailed design documentation.
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/codesage.git
-cd codesage
+git clone https://github.com/yourusername/CPInsights.git
+cd CPInsights
 
 # Backend setup
 cd backend
@@ -116,7 +116,7 @@ PINECONE_ENVIRONMENT=your_environment
 # Database
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
-POSTGRES_DB=codesage
+POSTGRES_DB=CPInsights
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=your_password
 
@@ -165,7 +165,7 @@ Navigate to `http://localhost:3000` and:
 ## Project Structure
 
 ```
-codesage/
+CPInsights/
 ├── backend/
 │   ├── api/                 # FastAPI routes and schemas
 │   ├── core/                # Core analysis engine
@@ -247,13 +247,13 @@ MIT License - See [LICENSE](./LICENSE) for details.
 
 ## Citation
 
-If you use CodeSage in your research or projects:
+If you use CPInsights in your research or projects:
 
 ```bibtex
-@software{codesage2025,
+@software{CPInsights2025,
   author = {Jain, Kuber},
-  title = {CodeSage: AI-Powered Competitive Programming Code Review Assistant},
+  title = {CPInsights: AI-Powered Competitive Programming Code Review Assistant},
   year = {2025},
-  url = {https://github.com/Kuber144/codesage}
+  url = {https://github.com/Kuber144/CPInsights}
 }
 ```
